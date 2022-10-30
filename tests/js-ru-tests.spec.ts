@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test.describe('Функцилнальные тесты сайта learn.javascript.ru', () => {
+test.describe('Функциональные тесты сайта learn.javascript.ru', () => {
 
     test.beforeEach(async ({ page }) => {
         await page.goto('https://learn.javascript.ru/')
